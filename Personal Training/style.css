@@ -1,0 +1,187 @@
+#main-container
+{
+  background-color: #EDF2FD;
+}
+
+#header
+{
+  background-color: #C8D9F9;
+  width: 85%;
+  margin: auto;
+  padding: 20px;
+  filter: drop-shadow(0px -5px 5px black);
+}
+
+#title
+{
+  font-family: 'Vollkorn SC', serif;
+  text-decoration: overline underline;
+  margin-top: 10px;
+}
+
+#subTitle
+{
+  font-family: 'Volkorn SC', serif;
+}
+
+#mainContent
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 70%;
+  margin: auto;
+  background-color: #C8D9F9;
+/*   filter: drop-shadow(0px -5px 5px black); */
+}
+
+#mainContent p
+{
+  max-width: 60%;
+  margin: auto;
+  padding: 25px;
+  font-size: 18px;
+}
+
+#trainerPic
+{
+  margin: auto;
+  max-width: 47%;
+  height: auto;
+  border-radius: 6em;
+}
+
+.imageScroll img
+{
+  max-height: 300px;
+  margin: 20px 0px 20px 0px;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#yoga-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+#yoga-overlay:hover {
+  opacity: .7;
+}
+
+#cross-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+#cross-overlay:hover {
+  opacity: .7;
+}
+
+#training-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+#training-overlay:hover {
+  opacity: .7;
+}
+
+#subcontent
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 70%;
+  margin: auto;
+  padding-top: 15px;
+  background-color: #C8D9F9;
+/*   filter: drop-shadow(0px -5px 5px black); */
+}
+
+#subcontent p
+{
+  max-width: 60%;
+  margin-left: 100px;
+  font-size: 18px;
+}
+
+#subcontent h3
+{
+  text-decoration: underline;
+  max-width: 60%;
+  margin-left: 100px;
+  font-size: 18px;
+}
+
+.d-block
+{
+  max-height: 700px;
+  max-width: 500px;
+  height: auto;
+  width: auto;
+  margin: auto;
+}
+
+.carousel
+{
+  width: 500px;
+  margin: auto;
+}
+
+#contact-header
+{
+  font-family: 'Vollkorn SC', serif;
+  text-decoration: underline;
+}
+
+.contact
+{
+  background-color: #92B3F4;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  filter: drop-shadow(0px -5px 5px black);
+}
+
+.contact-field
+{
+  margin-bottom: 20px;
+  padding-left: 50px;
+}
+
+.footer
+{
+  background-color: #AAA;
+  height: 50px;
+  margin: auto;
+}
